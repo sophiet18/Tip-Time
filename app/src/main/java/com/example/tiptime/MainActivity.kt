@@ -16,6 +16,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
     }
 
+    fun calculateTip(){
+        val stringInTextField = binding.costOfService.text.toString()
+        val cost = stringInTextField.toDouble()
+    }
 
 
 
