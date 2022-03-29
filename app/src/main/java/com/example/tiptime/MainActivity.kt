@@ -25,6 +25,12 @@ class MainActivity : AppCompatActivity() {
             R.id.option_eighteen_percent -> 0.18
             else -> 0.20
         }
+        var tip = tipPercentage * cost
+        val roundUp = binding.roundUpSwitch.isChecked
+        if(roundUp){
+            tip = ceil(tip)
+
+        }
     }
 
 
