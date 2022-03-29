@@ -7,5 +7,6 @@
     <string name="okay_15">Okay (15%)</string>
     <string name="round_up_tip">Round Up Tip ?</string>
     <string name="calculate">Do my math ~</string>
-    <string name="tip_amount">Tip Amount</string>
+    <!--    % is where the formatted currency will go-->
+    <string name="tip_amount">Tip Amount: %s</string>
 </resources>
