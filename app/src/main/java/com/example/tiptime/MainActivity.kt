@@ -24,7 +24,6 @@ class MainActivity : AppCompatActivity() {
         if (cost == null) {
             binding.tipResult.text = ""
             return
-
         }
         val tipPercentage = when (binding.tipOptions.checkedRadioButtonId) {
             R.id.option_fifteen_percent -> 0.15
@@ -33,11 +32,12 @@ class MainActivity : AppCompatActivity() {
         }
         var tip = tipPercentage * cost
         if (binding.roundUpSwitch.isChecked) {
-            tip = ceil(tip)
+           tip = ceil(tip)
         }
         val formattedTip = NumberFormat.getCurrencyInstance().format(tip)
         binding.tipResult.text = getString(R.string.tip_amount, formattedTip)
     }
-
 }
+
+
 
