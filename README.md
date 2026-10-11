@@ -1,18 +1,44 @@
-# Tip ⏲️
+# Tip-Time
 
-**mar 28**
+An Android learning project from Unit 2 of Android Basics, built with Kotlin.
 
-wow. READMEs are turning into my coding journals... thanks Github for all the storage space. 
-Back to the office tomorrow but still racing against the clock with determination stronger than ever that I will finish these Android basics.
+## Project status
 
-Set the layout for the app today and pretty excited because 
-1. finally able to spell constraint and the corresponding line of code correctly without having to copy and paste
-2. set radio buttons and radio group ... interesting because I was just revising it yesterday / these few days in HTML dejavu? 
+This is a learning project. The current build and runtime behaviour have not been verified; this README does not claim a production-ready release.
 
-**mar 29**
+## Learning focus
 
-I'd like to conclude rebel status achieved 😂 I didn't sleep well last night as per usual 
-instead I somehow got gutsy enough to open android studio in another while at work
-THEN. even after a day's work, on my way home I did some coding on the bus but it didn't workout cause I was just too exhausted and hence me redoing them after dinner.
+- Building the app layout.
+- Working with constraints.
+- Using radio buttons and radio groups.
+- Understanding resource IDs and binding.
 
-BACK TO KOTLIN - there remains a question 🙋‍♀️ when do I use R.id and when do I use binding? 
+## Learning journal
+
+### March 28, 2022 — Layout and confidence
+
+My READMEs are turning into coding journals—thanks, GitHub, for the storage space!
+
+I'm back at the office tomorrow, but still determined to finish Android Basics.
+
+I set up the app layout today and felt excited about two things:
+
+1. I could finally spell `constraint` and write the corresponding code without copying and pasting.
+2. I set up radio buttons and a radio group. It felt familiar because I had recently been revising similar concepts in HTML.
+
+### March 29, 2022 — Learning around a working day
+
+Rebel status achieved! 😂
+
+After a poor night's sleep, I still found the motivation to open Android Studio during the day. I tried coding on the bus home, but I was too exhausted, so I revisited the work after dinner.
+
+### Open question
+
+When should I use `R.id`, and when should I use binding?
+
+## Next development steps
+
+- Verify the project builds and runs.
+- Test the existing calculation and input handling.
+- Add screenshots and setup instructions after verification.
+- Record the answer to the resource-ID versus binding question.
